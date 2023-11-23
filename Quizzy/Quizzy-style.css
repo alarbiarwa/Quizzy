@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family:circular-std ;
+    src: url(fonts/circular-std-medium-500.ttf);
+    
+}
+@font-face {
+    font-family: Averta-Semibold;
+    src: url(fonts/averta-semibold.ttf);
+}
+    @font-face {
+      font-family:AvertaStd-Bold ;
+      src: url(fonts/AvertaStd-Bold.ttf);
+      
+  }
+  @font-face {
+      font-family: AvertaStd-Light;
+      src: url(fonts/AvertaStd-Light.ttf);
+  }
+
+
+
+ /*Header*/ 
+.nav-item{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: circular-std;
+ }
+  /*.nav-link{
+    color: #E0E0E0;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  .nav-link:hover {
+    color: black;
+    transition:  0.1s ;
+  }*/
+  .navbar-button button {
+    color: #06FE8E;
+    background-color: #ffffff;
+    border: 2px solid #06FE8E;
+  }
+  .navbar-button button:hover {
+    color:#ffffff ;
+    background-color:#06FE8E;
+    border: 2px solid #ffffff ;
+    transition:  0.1s ;
+  }
+  swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+/*Hero*/
+.topic{
+  font-family: AvertaStd-Bold;
+}
+.Text{
+  font-family: circular-std;
+}
+.btn-primary{
+    background-image: linear-gradient(45deg, #1884FF, #49CDFF);   
+}
+.btn-primary:hover{
+  background:linear-gradient(95.34deg,#1F4F85,#49CDFF);
+  transition:  0.1s ;
+}
+
+/*Features*/
+
+.F-img{
+  position: absolute;
+  transform: rotate(0deg);
+  width: 460px;
+}
+.h5 {
+  font-family: circular-std;
+}
+
+/*Journey explained*/
+
+.textGreen{
+  color: #06FE8E;
+}
+
+  /*footer*/
+  .d-flex img {
+    cursor: pointer;
+ 
+  }
+  
+  .d-flex img:hover {
+    transform: scale(1.5);
+    transition:  0.1s ;
+  }
+  /*h1 {
+    font-family: AvertaStd-Light, Arial, sans-serif;
+    color: black;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bold;
+  }*/
